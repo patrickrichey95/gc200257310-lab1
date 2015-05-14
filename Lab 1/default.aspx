@@ -14,7 +14,7 @@
     </div>
     <div>
         Password:<asp:Label ID="lblPassword" runat="server"></asp:Label>
-        <asp:TextBox ID="txtPassword" runat="server"></asp:TextBox>
+        <asp:TextBox ID="txtPassword" TextMode="Password" runat="server"></asp:TextBox>
     </div>
     <div>
         Address:<asp:Label ID="lblAddress" runat="server"></asp:Label>
